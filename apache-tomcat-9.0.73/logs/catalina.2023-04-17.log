@@ -1,0 +1,672 @@
+17-Apr-2023 13:11:33.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 13:11:33.032 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 13:11:33.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 13:11:33.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 13:11:33.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 13:11:33.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 13:11:33.033 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 13:11:33.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 13:11:33.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 13:11:33.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:11:33.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:11:33.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 13:11:33.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 13:11:33.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 13:11:33.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 13:11:33.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 13:11:33.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 13:11:33.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 13:11:33.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 13:11:33.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 13:11:33.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 13:11:33.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 13:11:33.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 13:11:33.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:11:33.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:11:33.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 13:11:33.126 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 13:11:33.744 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:11:33.849 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1144] milliseconds
+17-Apr-2023 13:11:33.932 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 13:11:33.932 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 13:11:33.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 13:11:34.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [649] ms
+17-Apr-2023 13:11:34.600 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 13:11:34.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [94] ms
+17-Apr-2023 13:11:34.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 13:11:35.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [489] ms
+17-Apr-2023 13:11:35.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 13:11:35.208 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [24] ms
+17-Apr-2023 13:11:35.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 13:11:35.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [37] ms
+17-Apr-2023 13:11:35.250 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:11:35.275 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1424] milliseconds
+17-Apr-2023 13:29:11.290 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:29:11.338 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 13:29:11.395 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:29:11.413 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:29:14.378 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 13:29:14.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 13:29:14.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 13:29:14.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 13:29:14.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 13:29:14.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 13:29:14.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 13:29:14.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 13:29:14.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 13:29:14.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:29:14.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:29:14.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 13:29:14.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 13:29:14.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 13:29:14.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 13:29:14.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 13:29:14.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 13:29:14.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 13:29:14.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 13:29:14.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 13:29:14.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 13:29:14.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 13:29:14.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 13:29:14.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:29:14.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:29:14.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 13:29:14.436 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 13:29:14.939 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:29:14.999 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [969] milliseconds
+17-Apr-2023 13:29:15.069 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 13:29:15.069 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 13:29:15.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 13:29:15.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [553] ms
+17-Apr-2023 13:29:15.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 13:29:15.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [74] ms
+17-Apr-2023 13:29:15.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 13:29:16.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [459] ms
+17-Apr-2023 13:29:16.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 13:29:16.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [28] ms
+17-Apr-2023 13:29:16.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 13:29:16.235 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [37] ms
+17-Apr-2023 13:29:16.241 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:29:16.269 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1268] milliseconds
+17-Apr-2023 13:31:42.042 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:31:42.083 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 13:31:42.138 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:31:42.157 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:31:43.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 13:31:43.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 13:31:43.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 13:31:43.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 13:31:43.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 13:31:43.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 13:31:43.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 13:31:43.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 13:31:43.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 13:31:43.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:31:43.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:31:43.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 13:31:43.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 13:31:43.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 13:31:43.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 13:31:43.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 13:31:43.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 13:31:43.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 13:31:43.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 13:31:43.694 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 13:31:43.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 13:31:43.695 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 13:31:43.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 13:31:43.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:31:43.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:31:43.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 13:31:43.719 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 13:31:44.259 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:31:44.318 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [989] milliseconds
+17-Apr-2023 13:31:44.374 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 13:31:44.375 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 13:31:44.387 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 13:31:44.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [609] ms
+17-Apr-2023 13:31:44.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 13:31:45.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [84] ms
+17-Apr-2023 13:31:45.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 13:31:45.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [513] ms
+17-Apr-2023 13:31:45.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 13:31:45.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [31] ms
+17-Apr-2023 13:31:45.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 13:31:45.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [37] ms
+17-Apr-2023 13:31:45.670 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:31:45.694 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1374] milliseconds
+17-Apr-2023 13:33:59.902 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:33:59.947 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 13:34:00.022 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:34:00.059 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:34:02.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 13:34:02.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 13:34:02.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 13:34:02.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 13:34:02.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 13:34:02.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 13:34:02.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 13:34:02.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 13:34:02.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 13:34:02.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:34:02.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:34:02.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 13:34:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 13:34:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 13:34:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 13:34:02.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 13:34:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 13:34:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 13:34:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 13:34:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 13:34:02.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 13:34:02.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 13:34:02.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 13:34:02.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:34:02.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:34:02.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 13:34:02.573 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 13:34:03.159 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:34:03.226 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1108] milliseconds
+17-Apr-2023 13:34:03.292 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 13:34:03.293 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 13:34:03.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 13:34:03.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [677] ms
+17-Apr-2023 13:34:03.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 13:34:04.072 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [87] ms
+17-Apr-2023 13:34:04.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 13:34:04.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [567] ms
+17-Apr-2023 13:34:04.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 13:34:04.677 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [37] ms
+17-Apr-2023 13:34:04.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 13:34:04.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [44] ms
+17-Apr-2023 13:34:04.728 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:34:04.759 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1530] milliseconds
+17-Apr-2023 13:35:14.052 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:35:14.082 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 13:35:14.155 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:35:14.182 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:35:16.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 13:35:16.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 13:35:16.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 13:35:16.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 13:35:16.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 13:35:16.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 13:35:16.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 13:35:16.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 13:35:16.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 13:35:16.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:35:16.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:35:16.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 13:35:16.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 13:35:16.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 13:35:16.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 13:35:16.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 13:35:16.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 13:35:16.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 13:35:16.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 13:35:16.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 13:35:16.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 13:35:16.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 13:35:16.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 13:35:16.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:35:16.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:35:16.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 13:35:16.813 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 13:35:17.775 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:35:17.944 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1612] milliseconds
+17-Apr-2023 13:35:18.054 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 13:35:18.054 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 13:35:18.072 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 13:35:18.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [740] ms
+17-Apr-2023 13:35:18.814 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 13:35:18.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [91] ms
+17-Apr-2023 13:35:18.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 13:35:19.507 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [601] ms
+17-Apr-2023 13:35:19.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 13:35:19.568 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [60] ms
+17-Apr-2023 13:35:19.569 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 13:35:19.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [63] ms
+17-Apr-2023 13:35:19.641 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:35:19.677 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1728] milliseconds
+17-Apr-2023 13:43:42.151 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:43:42.193 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 13:43:42.241 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:43:42.258 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:43:46.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 13:43:46.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 13:43:46.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 13:43:46.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 13:43:46.641 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 13:43:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 13:43:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 13:43:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 13:43:46.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 13:43:46.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:43:46.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:43:46.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 13:43:46.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 13:43:46.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 13:43:46.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 13:43:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 13:43:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 13:43:46.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 13:43:46.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 13:43:46.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 13:43:46.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 13:43:46.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 13:43:46.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 13:43:46.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:43:46.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:43:46.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 13:43:46.690 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 13:43:47.295 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:43:47.365 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1157] milliseconds
+17-Apr-2023 13:43:47.435 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 13:43:47.436 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 13:43:47.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 13:43:48.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [829] ms
+17-Apr-2023 13:43:48.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 13:43:48.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [132] ms
+17-Apr-2023 13:43:48.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 13:43:49.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [601] ms
+17-Apr-2023 13:43:49.018 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 13:43:49.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [42] ms
+17-Apr-2023 13:43:49.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 13:43:49.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [49] ms
+17-Apr-2023 13:43:49.118 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:43:49.151 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1783] milliseconds
+17-Apr-2023 13:58:45.427 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:58:45.462 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 13:58:45.582 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:58:45.618 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:58:47.690 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 13:58:47.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 13:58:47.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 13:58:47.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 13:58:47.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 13:58:47.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 13:58:47.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 13:58:47.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 13:58:47.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 13:58:47.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:58:47.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:58:47.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 13:58:47.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 13:58:47.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 13:58:47.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 13:58:47.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 13:58:47.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 13:58:47.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 13:58:47.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 13:58:47.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 13:58:47.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 13:58:47.725 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 13:58:47.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 13:58:47.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:58:47.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 13:58:47.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 13:58:47.754 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 13:58:48.330 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:58:48.395 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1108] milliseconds
+17-Apr-2023 13:58:48.465 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 13:58:48.466 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 13:58:48.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 13:58:49.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [611] ms
+17-Apr-2023 13:58:49.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 13:58:49.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [90] ms
+17-Apr-2023 13:58:49.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 13:58:49.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [522] ms
+17-Apr-2023 13:58:49.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 13:58:49.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [31] ms
+17-Apr-2023 13:58:49.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 13:58:49.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [39] ms
+17-Apr-2023 13:58:49.782 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 13:58:49.809 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1411] milliseconds
+17-Apr-2023 14:09:03.054 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:09:03.081 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 14:09:03.138 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:09:03.158 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:09:05.428 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 14:09:05.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 14:09:05.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 14:09:05.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 14:09:05.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 14:09:05.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 14:09:05.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 14:09:05.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 14:09:05.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 14:09:05.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:09:05.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:09:05.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 14:09:05.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 14:09:05.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 14:09:05.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 14:09:05.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 14:09:05.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 14:09:05.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 14:09:05.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 14:09:05.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 14:09:05.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 14:09:05.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 14:09:05.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 14:09:05.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:09:05.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:09:05.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 14:09:05.484 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 14:09:06.226 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:09:06.308 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1402] milliseconds
+17-Apr-2023 14:09:06.392 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 14:09:06.393 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 14:09:06.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 14:09:07.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [673] ms
+17-Apr-2023 14:09:07.085 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 14:09:07.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [115] ms
+17-Apr-2023 14:09:07.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 14:09:07.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [550] ms
+17-Apr-2023 14:09:07.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 14:09:07.789 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [37] ms
+17-Apr-2023 14:09:07.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 14:09:07.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [44] ms
+17-Apr-2023 14:09:07.840 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:09:07.872 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1560] milliseconds
+17-Apr-2023 14:31:05.800 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:31:05.851 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 14:31:06.002 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:31:06.033 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:31:07.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 14:31:07.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 14:31:07.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 14:31:07.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 14:31:07.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 14:31:07.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 14:31:07.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 14:31:07.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 14:31:07.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 14:31:07.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:31:07.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:31:07.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 14:31:07.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 14:31:07.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 14:31:07.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 14:31:07.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 14:31:07.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 14:31:07.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 14:31:07.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 14:31:07.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 14:31:07.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 14:31:07.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 14:31:07.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 14:31:07.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:31:07.791 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:31:07.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 14:31:07.822 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 14:31:08.704 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:31:08.793 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1484] milliseconds
+17-Apr-2023 14:31:08.889 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 14:31:08.890 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 14:31:08.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 14:31:09.070 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [XMLSchema.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.070 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [datatypes.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.071 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [xml.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.072 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_2.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.073 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_1_1.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.074 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_3.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.075 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_1_2.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.076 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [j2ee_web_services_1_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.077 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [j2ee_web_services_client_1_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.078 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.078 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_2_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.079 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [j2ee_1_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.080 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.080 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_5.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.081 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_2_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.082 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_5.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.083 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.084 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_1_2.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.085 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_client_1_2.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.085 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_3_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.086 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-fragment_3_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.086 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-common_3_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.087 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_6.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.087 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_2.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.087 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_1_3.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.088 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_client_1_3.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.088 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_3_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.089 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-fragment_3_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.089 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-common_3_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.090 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_7.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.091 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_3.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.092 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_1_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.093 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_client_1_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.094 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_4_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.094 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-fragment_4_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.095 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-common_4_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.095 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_8.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:31:09.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [755] ms
+17-Apr-2023 14:31:09.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 14:31:09.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [112] ms
+17-Apr-2023 14:31:09.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 14:31:10.217 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Error during ServletContainerInitializer processing
+	javax.servlet.ServletException: java.io.FileNotFoundException: Could not resolve XML resource [null] with public ID [-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN], system ID [http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd] and base URI [file:/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples/WEB-INF/jsp/debug-taglib.tld] to a known, local entity.
+		at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:85)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4929)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1184)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1932)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1094)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: java.io.FileNotFoundException: Could not resolve XML resource [null] with public ID [-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN], system ID [http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd] and base URI [file:/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples/WEB-INF/jsp/debug-taglib.tld] to a known, local entity.
+		at org.apache.tomcat.util.descriptor.LocalResolver.resolveEntity(LocalResolver.java:151)
+		at org.apache.tomcat.util.digester.Digester$EntityResolver2Wrapper.resolveEntity(Digester.java:2120)
+		at java.xml/com.sun.org.apache.xerces.internal.util.EntityResolver2Wrapper.resolveEntity(EntityResolver2Wrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.resolveEntityAsPerStax(XMLEntityManager.java:1026)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1142)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1040)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:943)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.tld.TldParser.parse(TldParser.java:77)
+		at org.apache.jasper.servlet.TldScanner.scanJspConfig(TldScanner.java:198)
+		at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:102)
+		at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+		... 38 more
+17-Apr-2023 14:31:10.221 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2023 14:31:10.241 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [466] ms
+17-Apr-2023 14:31:10.242 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 14:31:10.284 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [42] ms
+17-Apr-2023 14:31:10.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 14:31:10.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [54] ms
+17-Apr-2023 14:31:10.347 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:31:10.386 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1590] milliseconds
+17-Apr-2023 14:32:26.683 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:32:26.694 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 14:32:26.723 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:32:26.734 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:32:28.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.73
+17-Apr-2023 14:32:28.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 27 2023 15:33:40 UTC
+17-Apr-2023 14:32:28.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.73.0
+17-Apr-2023 14:32:28.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Apr-2023 14:32:28.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            13.3.1
+17-Apr-2023 14:32:28.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Apr-2023 14:32:28.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/jakubkonkol/Library/Java/JavaVirtualMachines/openjdk-18.0.1/Contents/Home
+17-Apr-2023 14:32:28.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.1+10-24
+17-Apr-2023 14:32:28.967 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Apr-2023 14:32:28.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:32:28.968 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:32:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Apr-2023 14:32:28.982 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Apr-2023 14:32:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Apr-2023 14:32:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Apr-2023 14:32:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Apr-2023 14:32:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/conf/logging.properties
+17-Apr-2023 14:32:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Apr-2023 14:32:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Apr-2023 14:32:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Apr-2023 14:32:28.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Apr-2023 14:32:28.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/target/MiniAgent-1.0-jar-with-dependencies.jar
+17-Apr-2023 14:32:28.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Apr-2023 14:32:28.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:32:28.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73
+17-Apr-2023 14:32:28.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/temp
+17-Apr-2023 14:32:29.002 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/jakubkonkol/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Apr-2023 14:32:29.572 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:32:29.628 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1091] milliseconds
+17-Apr-2023 14:32:29.694 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Apr-2023 14:32:29.694 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.73]
+17-Apr-2023 14:32:29.709 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs]
+17-Apr-2023 14:32:29.842 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [XMLSchema.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.842 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [datatypes.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.843 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [xml.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.844 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_2.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.844 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_1_1.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.845 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_3.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.846 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_1_2.dtd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.847 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [j2ee_web_services_1_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.847 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [j2ee_web_services_client_1_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.848 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.848 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_2_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.849 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [j2ee_1_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.849 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.850 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_2_5.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.850 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-jsptaglibrary_2_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.851 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_5.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.851 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.852 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_1_2.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.852 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_client_1_2.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.852 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_3_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.853 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-fragment_3_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.854 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-common_3_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.854 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_6.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.855 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_2.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.856 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_1_3.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.856 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_client_1_3.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.857 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_3_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.858 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-fragment_3_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.858 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-common_3_1.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.859 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_7.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.859 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [jsp_2_3.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.860 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_1_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.861 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_web_services_client_1_4.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.862 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-app_4_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.862 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-fragment_4_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.862 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [web-common_4_0.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:29.864 WARNING [main] org.apache.tomcat.util.descriptor.DigesterFactory.locationFor The XML schema [javaee_8.xsd] could not be found. This is very likely to break XML validation if XML validation is enabled.
+17-Apr-2023 14:32:30.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/docs] has finished in [596] ms
+17-Apr-2023 14:32:30.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager]
+17-Apr-2023 14:32:30.381 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/manager] has finished in [76] ms
+17-Apr-2023 14:32:30.382 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples]
+17-Apr-2023 14:32:30.758 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Error during ServletContainerInitializer processing
+	javax.servlet.ServletException: java.io.FileNotFoundException: Could not resolve XML resource [null] with public ID [-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN], system ID [http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd] and base URI [file:/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples/WEB-INF/jsp/debug-taglib.tld] to a known, local entity.
+		at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:85)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4929)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1184)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1932)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1094)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: java.io.FileNotFoundException: Could not resolve XML resource [null] with public ID [-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN], system ID [http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd] and base URI [file:/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples/WEB-INF/jsp/debug-taglib.tld] to a known, local entity.
+		at org.apache.tomcat.util.descriptor.LocalResolver.resolveEntity(LocalResolver.java:151)
+		at org.apache.tomcat.util.digester.Digester$EntityResolver2Wrapper.resolveEntity(Digester.java:2120)
+		at java.xml/com.sun.org.apache.xerces.internal.util.EntityResolver2Wrapper.resolveEntity(EntityResolver2Wrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.resolveEntityAsPerStax(XMLEntityManager.java:1026)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.dispatch(XMLDocumentScannerImpl.java:1142)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$DTDDriver.next(XMLDocumentScannerImpl.java:1040)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:943)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1535)
+		at org.apache.tomcat.util.descriptor.tld.TldParser.parse(TldParser.java:77)
+		at org.apache.jasper.servlet.TldScanner.scanJspConfig(TldScanner.java:198)
+		at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:102)
+		at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:83)
+		... 38 more
+17-Apr-2023 14:32:30.761 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/examples] startup failed due to previous errors
+17-Apr-2023 14:32:30.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/examples] has finished in [399] ms
+17-Apr-2023 14:32:30.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT]
+17-Apr-2023 14:32:30.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/ROOT] has finished in [33] ms
+17-Apr-2023 14:32:30.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager]
+17-Apr-2023 14:32:30.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jakubkonkol/Downloads/Appd-Hackathon/apache-tomcat-9.0.73/webapps/host-manager] has finished in [40] ms
+17-Apr-2023 14:32:30.860 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:32:30.886 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1255] milliseconds
+17-Apr-2023 14:38:00.214 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:38:00.241 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Apr-2023 14:38:00.283 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Apr-2023 14:38:00.296 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

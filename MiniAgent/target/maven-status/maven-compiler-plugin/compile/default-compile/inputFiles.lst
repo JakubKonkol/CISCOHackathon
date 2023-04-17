@@ -1,0 +1,8 @@
+/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/src/main/java/com/appd/hackathon/instrumentation/RuleApplier.java
+/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/src/main/java/com/appd/hackathon/MiniAgent.java
+/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/src/main/java/com/appd/hackathon/instrumentation/interceptors/HttpHeadersCollector.java
+/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/src/main/java/com/appd/hackathon/instrumentation/interceptors/MethodInterceptor.java
+/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/src/main/java/com/appd/hackathon/Transformer.java
+/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/src/main/java/com/appd/hackathon/instrumentation/interceptors/ServletMethodInterceptor.java
+/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/src/main/java/com/appd/hackathon/instrumentation/Rule.java
+/Users/jakubkonkol/Downloads/Appd-Hackathon/MiniAgent/src/main/java/com/appd/hackathon/instrumentation/interceptors/AMethodInterceptor.java
